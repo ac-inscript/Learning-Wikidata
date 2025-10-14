@@ -15,8 +15,8 @@ This is a Wikidata Learning Hub, where concepts, ideas and tutorials are stored.
 
 ## About Wikidata
 Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.
-Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others.
-Wikidata also provides support to many other sites and services beyond just Wikimedia projects! The content of Wikidata is available under a free license, exported using standard formats, and can be interlinked to other open data sets on the linked data web.
+It acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others.
+This knowledge base also provides support to many other sites and services beyond just Wikimedia projects! The content of Wikidata is available under a free license, exported using standard formats, and can be interlinked to other open data sets on the linked data web.
 So to sum up, Wikidata is: 
 - a repository of the world's knowledge
 - a database anyone can read and edit since it's free and multilingual
