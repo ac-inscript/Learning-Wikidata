@@ -42,3 +42,18 @@ To get started in Wikidata one should browse a bit through the website and find 
   - Testi Latini: https://www.wikidata.org/wiki/Wikidata%3ATesti_latini
   - Ancient Greece: https://www.wikidata.org/wiki/Wikidata%3AWikiProject_Ancient_Greece
   - On Wikibase (the difference between Wikibase and Wikidata will be better explain in other chapters) Greek Metrical Inscriptions: https://wiki.digitalclassicist.org/Greek_Metrical_Inscriptions
+
+## Get started
+The next steps are the following:
+1. Create a new account: https://auth.wikimedia.org/wikidatawiki/wiki/Special:CreateAccount?useformat=desktop&usesul3=1%C2%A2ralauthLoginToken=3bd4a84af90943527477e13a18bab57c
+2. Add a babel (or the languages the user is confident with so to clarify in which language the edits are to be made): https://en.wikipedia.org/wiki/Wikipedia:Babel#Instructions
+3. Start editing with "create a new item" to put oneself to the test: https://www.wikidata.org/wiki/Special:NewItem
+
+## The editing
+There are two tipes of editing, one is the manual editing and the other is the masss editing. The first is done directly via the Wikidata interface, allowing for precise, context-aware contributions. Editors can verify sources, correct details, and add nuanced data. Though slower than automated methods, it ensures semantic accuracy and reflects Wikidata’s collaborative and human-centered approach. The latter refers to large-scale data updates using tools like QuickStatements, OpenRefine, or bots. It enables fast and consistent integration of datasets across many items, supporting institutional and research projects. This method boosts efficiency but requires strict adherence to data models and community guidelines to maintain quality and avoid duplication.
+
+## How's data structured?
+Though not strictly necessary to the basic knowledge of editing, I argue that it is still important to know how the data we want to add into the database are to be stored. To understand this, we need to take a step back. The data is structured in triples following the Resource Descriptive Framework (RDF). So, as we all speak a language with a subject, a predicate and an object, we must consider this structure as a proper grammar connection. Moreover, the links between those nodes are logical, that is I cannot say anything that contradicts the logical rules (otherwise I would violate the contraints, as will be discussed later on). For instance, as one cannot say "The color of the river is mother" - obviously the interlocutor would expect to hear a color and not a family member, a database will exclude this statement as logical.
+
+
+
