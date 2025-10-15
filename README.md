@@ -74,6 +74,9 @@ Here is a recorded tutorial on how to add an item properly. This is all part of 
 
 [Creating an item.zip](https://github.com/user-attachments/files/22928571/Creating.an.item.zip)
 
+As shown, the user can add statements as desidered, including every field of knowledge. The user will then understand the impact Wikidata can have in those disciplines that extend their borders to other fields of research, as Epigraphy itself is about paleography, geology, archeology, history, prosopography and so forth. Had a property not been created yet, the procedure to add it would be more intricated than the item cration. One should "ask" the comunity to add it, and the few ones that are in charge of taking action will then add it (it sometimes take a bit of time, but the good news is that we don't add properties as often as we create items). The user may wonder the reason of such a difference in procedures. The keyword is "coherence". Let us imagine creating a new property stating that one "is friend" of another. There are many types of friendship (and the concept has certainly changed over time), so one could state that "Charles Dickens was friend of Elizabeth Gaskell". Then, a a second user might have coded some of Dickens' relationships not as "friend to" as "significant person to". Finally a third user may want to query these data and investigate the relationships that Dickens had with others and it would be difficult to add evry type of relantionship in it. So what to do? We use the more general one (significant person) and then add as a qualifier the type of it (friend, lover).
+For those familiar to grammar syntax: while speaking, it is far better (and understandable) to add synonyms of objects rather than to add multiple verbs connected to a single object.
+
 
 
 
