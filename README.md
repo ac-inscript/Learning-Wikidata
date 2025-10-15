@@ -68,3 +68,13 @@ When we look for an item in Wikidata (I'd rather say item than word for personal
 <img width="1251" height="247" alt="immagine" src="https://github.com/user-attachments/assets/8b912115-4f08-40ed-9eae-24e84d210d10" />
 
 Thus, the writer is the actual subject of the statement (read by the machine as Q892), then the "place of birth" (P19) serves as predicate/property, and finally Bloemfontein (Q37701) serves as object/value. We can add more information to this statement (just as in a natural languace speech one can add more predicates and objects connected to a single subject). And in the same way, we can add in this very statement some references (that make the data more scientific to the community, as it can be verified), or dates and so forth.
+
+## Let's edit!
+Here is a recorded tutorial on how to add an item properly. This is all part of the manual editing.
+
+[Creating an item.zip](https://github.com/user-attachments/files/22928571/Creating.an.item.zip)
+
+
+
+
+
