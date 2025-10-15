@@ -55,5 +55,16 @@ There are two tipes of editing, one is the manual editing and the other is the m
 ## How's data structured?
 Though not strictly necessary to the basic knowledge of editing, I argue that it is still important to know how the data we want to add into the database are to be stored. To understand this, we need to take a step back. The data is structured in triples following the Resource Descriptive Framework (RDF). So, as we all speak a language with a subject, a predicate and an object, we must consider this structure as a proper grammar connection. Moreover, the links between those nodes are logical, that is I cannot say anything that contradicts the logical rules (otherwise I would violate the contraints, as will be discussed later on). For instance, as one cannot say "The color of the river is mother" - obviously the interlocutor would expect to hear a color and not a family member, a database will exclude this statement as logical.
 
+<img width="630" height="327" alt="Wikidata Editing" src="https://github.com/user-attachments/assets/9227e4ff-c48e-4441-85b5-4257efef0dde" />
 
+## How's this working in Wikidata?
+At this point, it is easy to understand that the word "river" we used in teh previous example alone does not constitute a readable element of the statement for the machine, but only for the human brain. That word must correspond to a machine-readable code. First, we call item the part of the statement that has thw roleof subject, then property the predicate and value the object (that is in other circumstances an item in turn). Second, in Wikidata a unique identifier is given to both items and properties, respectively a Q+number and a P+number IDs. Let us now make a sentence machine-readable in Wikidata: Charles Dickens is friend of Elizabeth Gaskell.
 
+<img width="1004" height="392" alt="immagine" src="https://github.com/user-attachments/assets/cfd1367d-6f64-4879-a7cd-93c5f1b88cb8" />
+
+So every item in Wikidata has or will have an ID, that is if an item can't be found it's patiently waiting for someone to add it. 
+When we look for an item in Wikidata (I'd rather say item than word for personal nouns and so forth are included), i.e. J. R. R. Tolkien not only may we find a proper description, but also aliases (in this case, other names he might be known and browsed with, such as nicknames), translations, and all the statement we talked about. One of the statement we find connected to this item is "Tolkien was born in Bloemfontein". This is how it appears to human readers:
+
+<img width="1251" height="247" alt="immagine" src="https://github.com/user-attachments/assets/8b912115-4f08-40ed-9eae-24e84d210d10" />
+
+Thus, the writer is the actual subject of the statement (read by the machine as Q892), then the "place of birth" (P19) serves as predicate/property, and finally Bloemfontein (Q37701) serves as object/value. We can add more information to this statement (just as in a natural languace speech one can add more predicates and objects connected to a single subject). And in the same way, we can add in this very statement some references (that make the data more scientific to the community, as it can be verified), or dates and so forth.
