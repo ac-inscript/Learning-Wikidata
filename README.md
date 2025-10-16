@@ -105,10 +105,11 @@ WHERE {
 }
 ```
 By default, [AUTO_LANGUAGE] retrieves results in the user interface language (e.g., Italian if the WDQS interface is in Italian). You can also specify another language directly, such as "en".
-`SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }`
+`SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }`  
 This final query returns 1,807 results, taking slightly longer to execute than the simpler version without labels.
 
-
+## Let's query!
+So here's some examples on how to query certain types of data. First we will consider a very basic query, then, as soon as we need other details to be investigated, we will add some more information to our query such as time periods and coordinates.
 
 
 
